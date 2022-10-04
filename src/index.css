@@ -1,0 +1,123 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+:root{
+--white: #fff;
+--dark: #333333;
+--inputBackground: #F1F3FD;
+--text-color: #30302E;
+--border: #F1F3FD;
+--red : #CC4174;
+--blue : #066AEF;
+--box-shadow: 0px 4px 29px #F0F3FF;
+--sliderText : #ACB7EB;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   max-width: 100%;
+}
+body {
+   font-family: 'Helvetica Neue', sans-serif;
+   font-weight: 400;
+}
+
+.maxwidth{
+   max-width: 1500px;
+   margin: 0 auto;
+   padding: 0 2rem;
+}
+
+.profile--header{
+   font-size: 25px;
+   line-height: 39px;
+}
+.go-to{
+   display: flex;
+   gap: .3125rem;
+   align-items: center;
+   text-decoration: none;
+   color: var(--white);
+   font-size: 14px;
+   line-height: 22px;
+}
+.profile-body{
+   display: grid;
+   grid-template-columns: repeat(2, auto max-content );
+   justify-content: space-between;
+   width: 85%;
+   margin:96px auto;
+}
+.user {
+   width: 100%;
+   padding-right: 3rem;
+}
+.pfl-img-div{
+   padding: 8px;
+   position: relative;
+   width: 100%;
+   justify-content: center;
+   margin: auto;
+}
+.photo-icon{
+   position: absolute;
+   bottom: -15px;
+   right: 0;
+   left: 0;
+   margin: auto;
+}
+.username{
+   margin: 47px auto 55px;
+   font-size: 25px;
+   text-align: center;
+}
+.profile-photo {
+   width: 227px;
+   background: var(--dark);
+   border-radius: 35px;
+}
+
+.colums {
+   display: grid;
+   gap: 20px;
+}
+.column-flex{
+   display: grid;
+   grid-template-columns: 1fr 2fr max-content;
+   align-items: center;
+   gap: 20px;
+   font-size: 20px;
+   color: var(--text-color);
+}
+.column-flex:hover{
+   background: var(--border);
+   border-radius: 17px;
+}
+.iconsdiv{
+   width: 3.3125rem;
+   height: 53px;
+   border-radius: 17px;
+   background: var(--border);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.arrow{
+font-size: 15px;
+padding-right: .5rem;
+}
+.name-tags {
+   font-size: 20px;
+   color: var(--text-color);
+}
+.logoutIcon{
+   display: flex;
+   width: max-content;
+   margin: 2rem auto;
+   gap: 15px;
+   font-size: 17px;
+   color: #ACB7EB;
+   cursor: pointer;
+}
+

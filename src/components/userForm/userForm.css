@@ -1,0 +1,13 @@
+.userform-cont{
+   width: 980px;
+   box-shadow: var(--box-shadow);
+   position: relative;
+   border-radius: 35px;
+   padding: 30px 67px;
+}
+.sub-uf-cnt {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+   justify-content: space-between;
+}

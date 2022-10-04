@@ -1,0 +1,19 @@
+.main-nav{
+   max-width: 1990px;
+   margin: auto;
+}
+.nav--div{
+   background: var(--dark);
+   color: var(--white);
+   padding: 0 2rem;
+}
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 19px 0;
+}
+.logo {
+   width: 158px;
+   height: 40px;
+}

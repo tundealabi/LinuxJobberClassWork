@@ -1,0 +1,27 @@
+.interest {
+   width: 980px;
+   box-shadow: var(--box-shadow);
+   border-radius: 35px;
+   padding: 75px 67px;
+   position: relative;
+   display: grid;
+   align-items: center;
+}
+.topcheck {
+   position: absolute;
+   top: .9375rem;
+   right: 0;
+   left: 0;
+   margin: auto;
+}
+.int-txt{
+   color: var(--text-color);
+   font-size: 1.25rem;
+}
+.slider-range-container{
+   display: grid;
+   grid-template-columns: repeat(2, 350px);
+   justify-content: space-between;
+   gap: 35px;
+   padding: 2rem 0;
+}

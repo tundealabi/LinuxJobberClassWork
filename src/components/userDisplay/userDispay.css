@@ -1,0 +1,14 @@
+.usr-dsp-cnt {
+   display: grid;
+   place-items: center;
+   gap: 40px;
+}
+.profileIcon {
+   place-self: flex-start;
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   padding: 1rem 0;
+   font-size: 20px;
+   color: var(--text-color);
+}

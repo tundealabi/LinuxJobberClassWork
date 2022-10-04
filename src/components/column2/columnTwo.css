@@ -1,0 +1,125 @@
+.profille{
+   width: 760px !important;
+   position: relative;
+   transition: all .3s ease-in-out;
+}
+.profile{
+   width: 685px;
+   border-radius: 35px;
+   box-shadow: var(--box-shadow);
+   display: flex;
+   background: var(--white);
+   flex-direction: column;
+   padding-bottom: 48px;
+   position: relative;
+   transition: all .3s ease-in-out;
+}
+.profile-checked{
+   width: 100%;
+   position: relative;
+   padding: 17px;
+}
+.ccc{
+   float: right;
+}
+.ol-body {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   width: 80%;
+   margin: 1rem auto;
+   color: var(--red);
+   font-size: 20px;
+}
+.btn-input{
+   background-color: var(--border);
+   padding: 1rem 2rem ;
+   border: 2px solid var(--border);
+   border-radius: 1.0625rem;
+   font-size: 20px;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}
+.cursor{
+   cursor: text !important;
+}
+.btn-input:focus{
+   outline: none;
+}
+.txt-input{
+   font-size: 17px;
+   width: 100%;cursor: text;
+}
+.text-dscptn{
+   color: var(--text-color);
+   padding: 1rem;
+}
+.flexme{
+   display: flex;
+   gap: 1.5625rem;
+   padding: 1rem;
+   position: relative;
+   transition: all .3s ease-in-out;
+}
+.fllxx{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   transition: all .3s ease-in-out;
+}
+.hideme{
+   display: none;
+}
+.short-input{
+   width: 50%;
+   position: relative;
+   font-size: 17px;
+}
+.absl{
+   position: absolute;
+   right: -29px;
+   font-size: 30px;
+   top: 32px;
+   color: #c5ccec;
+}
+.adxgf{
+   right: 240px;
+}
+.no {
+   color: #c5ccec;
+}
+.hyc{
+   padding: 8px 1rem;
+   position: relative;
+}
+.l-abslt{
+   position: absolute;
+   top: 2px;
+   left: -17px;
+}
+.next {
+   background-color: var(--blue);
+   font-family: 'Open sans';
+   font-size: 18px;
+   font-weight: 700;
+   color: var(--white);
+   width: 200px;
+   height: 65px;
+   border: none;
+   position: absolute;
+   bottom: -30px;
+   left: 0;
+   right: 0;
+   margin: auto;
+   display: flex;
+   gap: 15px;
+   align-items: center;
+   justify-content: center;
+   border-radius: .375rem;
+   cursor: pointer;
+   box-shadow: 0px 4px 14px rgba(51, 157, 255, 0.22);
+   transition: all .6s ease-in;
+}
+.gry{
+   color: #c5ccec !important;
+}
